@@ -1,0 +1,71 @@
+body * {
+    border: 1px;
+    padding: 5px;
+  }
+  
+  body {
+    background-image: url("image3.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center;
+  }
+  
+  #BinaWisata {
+    font-size: 250%;
+    font-weight: bolder;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  #header {
+    display: flex;
+    background-color: wheat;
+  }
+  
+  #HeaderButtons {
+    display: flex;
+    margin-left: auto;
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid gray;
+  }
+  
+  a:hover {
+    background-color: aqua;
+  }
+  
+  a {
+    height: fit-content;
+    width: fit-content;
+    background-color: pink;
+    border: 1px solid gray;
+    text-decoration: none;
+    color: black;
+  }
+  
+  #main {
+    height: 1000px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #mainimg {
+    width: 40%;
+    height: 40%;
+  }
+  
+  a:hover {
+    background-color: cyan;
+  }
+  
+  a {
+    background: pink;
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid gray;
+  }
+  
+  footer {
+    font-weight: bold;
+  }

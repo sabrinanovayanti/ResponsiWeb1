@@ -10,6 +10,10 @@ body {
   background-position: center;
 }
 
+#HeaderButton p :hover {
+  text-decoration: underline;
+}
+
 #BinaWisata {
   font-size: 200%;
   font-weight: bolder;
@@ -25,18 +29,15 @@ body {
   margin-left: auto;
   height: fit-content;
   width: fit-content;
-  border: 1px solid gray;
 }
 
 b:hover {
-  background-color: cyan;
+  text-decoration: underline;
 }
 
 b {
-  background: pink;
   height: fit-content;
   width: fit-content;
-  border: 1px solid gray;
 }
 
 #main {

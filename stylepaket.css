@@ -159,8 +159,8 @@ h1 {
 .overlay2 {
   position: absolute;
   bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5);
+  background: rgb(250, 249, 249);
+  background: rgb(248, 248, 248);
   color: #f1f1f1;
   width: 10 cm;
   transition: 0.5s ease;
@@ -173,11 +173,11 @@ h1 {
 }
 
 .img1:hover .overlay1 {
-  opacity: 1;
+  opacity: 0.5;
 }
 
 .img2:hover .overlay2 {
-  opacity: 1;
+  opacity: 0.5;
 }
 
 #container112 {

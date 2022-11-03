@@ -140,17 +140,21 @@ h1 {
 .overlay2 {
   position: absolute;
   bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5);
+  background: rgb(245, 241, 241);
+  background: rgba(252, 248, 248, 0.634);
   color: #f1f1f1;
   width: 10 cm;
   transition: 0.5s ease;
-  opacity: 0;
-  color: white;
+  opacity: 1;
+  color: rgb(0, 0, 0);
   font-size: 20px;
   padding: 20px;
   text-align: center;
   border-radius: 20px;
+}
+
+a {
+  padding: 10px;
 }
 
 .overlay3 {

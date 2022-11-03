@@ -173,10 +173,6 @@ a {
   border-radius: 20px;
 }
 
-.img1:hover .overlay1 {
-  opacity: 3;
-}
-
 .img1:hover .overlay2 {
   opacity: 1;
 }

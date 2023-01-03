@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bina Wisata</title>
     <meta name="description" content="my first web layout page" />
     <link rel="stylesheet" href="stylepaket.css" />
@@ -28,7 +29,9 @@
           </div>
           <div id="container111">
             <div class="img1">
-              <img src="gambar1.jpg" />
+              <img
+                src="https://www.indonesia.travel/content/dam/indtravelrevamp/en/destinations/revision-2019/samosir2.jpg"
+              />
               <div class="overlay1">RAJA AMPAT</div>
             </div>
           </div>
@@ -45,6 +48,7 @@
             </div>
           </div>
         </div>
+
         <div id="container12">
           <div id="container111">
             <div class="img2">
@@ -70,10 +74,20 @@
               <div class="overlay2">DANAU TOBA</div>
             </div>
           </div>
-          
-          </div>
         </div>
       </div>
     </div>
+
+    <div class="welcome-back"></div>
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+
+    <script type="text/babel" src="WelcomeBack.js"></script>
+    <script type="text/babel" src="CoolButton.js"></script>
+
+    <script type="text/babel">
+      ReactDOM.render(<WelcomeBack />, document.querySelector(".welcome-back"));
+    </script>
   </body>
 </html>

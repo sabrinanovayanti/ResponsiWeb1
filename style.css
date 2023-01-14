@@ -3,44 +3,6 @@ body * {
   padding: 5px;
 }
 
-body {
-  background-image: url("image1.jpg");
-  background-attachment: fixed;
-  background-size: 100%;
-  background-position: center;
-}
-
-#BinaWisata {
-  font-size: 200%;
-  font-weight: bolder;
-}
-
-#header {
-  display: flex;
-  background-color: wheat;
-}
-
-#HeaderButtons {
-  display: flex;
-  margin-left: auto;
-  height: fit-content;
-  width: fit-content;
-  border: 1px solid gray;
-}
-
-a:hover {
-  background-color: aqua;
-}
-
-a {
-  background: pink;
-  height: fit-content;
-  width: fit-content;
-  border: 1px solid gray;
-  text-decoration: none;
-  color: black;
-}
-
 #main {
   height: 1000px;
 }
